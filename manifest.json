@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "manifest_version": 2,
   "description": "This extention makes a magic download button appear",
-  "homepage_url": "http://google.com",
+  "homepage_url": "https://github.com/jiachen247/NUSCastDownloader",
   "permissions": [
     "https://nuscast.ap.panopto.com/*"
   ],

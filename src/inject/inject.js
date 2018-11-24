@@ -9,6 +9,7 @@ chrome.extension.sendMessage({}, function(response) {
 
 			// todo add gh link here to log issues
 			console.log("[+] hello there :-) ");
+			console.log("[+] log issues @ https://github.com/jiachen247/NUSCastDownloader");
 
 			/*
 				JQuery Impl
@@ -20,7 +21,7 @@ chrome.extension.sendMessage({}, function(response) {
 			*/
 			
 			const e = document.querySelector('#podcastDownload');
-			
+
 			if(!isDownloadable(e)){
 				e.setAttribute("style", "display: inline-block;");
 				e.setAttribute('target', '_blank');
