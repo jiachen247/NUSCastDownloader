@@ -1,0 +1,21 @@
+{
+  "name": "NUSCast Magic Download Button",
+  "version": "0.1.0",
+  "manifest_version": 2,
+  "description": "This extention makes a magic download button appear",
+  "homepage_url": "http://google.com",
+  "permissions": [
+    "https://nuscast.ap.panopto.com/*"
+  ],
+  "content_scripts": [
+    {
+      "run_at": "document_end",
+      "matches": [
+        "https://nuscast.ap.panopto.com/Panopto/Pages/Viewer.aspx*"
+      ],
+      "js": [
+        "src/inject/inject.js"
+      ]
+    }
+  ]
+}
