@@ -7,9 +7,9 @@ chrome.extension.sendMessage({}, function(response) {
 				return !element.getAttribute("style").includes("hidden");
 			}
 
-			// todo add gh link here to log issues
 			console.log("[+] hello there :-) ");
-			console.log("[+] log issues @ https://github.com/jiachen247/NUSCastDownloader");
+			console.log("[+] thank you for using NUSCast Downloader!!!");
+			console.log("[+] you can log issues @ https://github.com/jiachen247/NUSCastDownloader");
 
 			/*
 				JQuery Impl
@@ -19,7 +19,7 @@ chrome.extension.sendMessage({}, function(response) {
 					href: $("meta[name='twitter:player:stream']").attr("content")
 				});
 			*/
-			
+
 			const e = document.querySelector('#podcastDownload');
 
 			if(!isDownloadable(e)){

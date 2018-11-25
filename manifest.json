@@ -1,8 +1,10 @@
 {
-  "name": "NUSCast Magic Download Button",
-  "version": "0.1.0",
+  "name": "NUSCast Downloader",
+  "short_name" : "NUSCast Downloader",
+  "author": "jiachen247",
+  "version": "0.1.2",
   "manifest_version": 2,
-  "description": "This extention makes a magic download button appear",
+  "description": "This extention makes all webcast on dnuscast.ap.panopto.com downloadable!!!",
   "homepage_url": "https://github.com/jiachen247/NUSCastDownloader",
   "permissions": [
     "https://nuscast.ap.panopto.com/*"
