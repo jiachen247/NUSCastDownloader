@@ -4,7 +4,7 @@
   "author": "jiachen247",
   "version": "0.1.2",
   "manifest_version": 2,
-  "description": "This extention makes all webcast on dnuscast.ap.panopto.com downloadable!!!",
+  "description": "this is a chrome extension magically makes all webcast on nuscast.ap.panopto.com downloadable wuhu!!!",
   "homepage_url": "https://github.com/jiachen247/NUSCastDownloader",
   "permissions": [
     "https://nuscast.ap.panopto.com/*"
